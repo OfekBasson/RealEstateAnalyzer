@@ -22,6 +22,38 @@ class House
         get { return essence; }
         set { essence = value; }
     }
+    private double partOfHouseThatWasSold;
+    public double PartOfHouseThatWasSold
+    {
+        get { return partOfHouseThatWasSold; }
+        set { partOfHouseThatWasSold = value; }
+    }
+    private string city;
+    public string City
+    {
+        get { return city; }
+        set { city = value; }
+    }
+    private int yearBuildingWasBuilt;
+    public int YearBuildingWasBuilt
+    {
+        get { return yearBuildingWasBuilt; }
+        set { yearBuildingWasBuilt = value; }
+    }
+    private int size;
+    public int Size
+    {
+        get { return size; }
+        set { size = value; }
+    }
+    private int numberOfRooms;
+    public int NumberOfRooms
+    {
+        get { return numberOfRooms; }
+        set { numberOfRooms = value; }
+    }
+    
+    
     
     
 }
